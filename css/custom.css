@@ -1,0 +1,16 @@
+
+.navbar-item.navbar-item-center-box {
+  flex-direction: column;
+ }
+
+ .tabs {
+   margin-bottom: 0px !important;
+ }
+
+ .container {
+   max-width: 1024px;
+ }
+
+ .media {
+  font-size: 14px;
+}
