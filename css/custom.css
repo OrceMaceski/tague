@@ -1,16 +1,47 @@
-
 .navbar-item.navbar-item-center-box {
   flex-direction: column;
- }
+}
 
- .tabs {
-   margin-bottom: 0px !important;
- }
+.tabs {
+  margin-bottom: 0px !important;
+}
 
- .container {
-   max-width: 1024px;
- }
+.container {
+  max-width: 1024px;
+}
 
- .media {
+.media {
   font-size: 14px;
+}
+
+small {
+  font-size: 10px;
+}
+
+.content blockquote:not(:last-child),
+.content dl:not(:last-child),
+.content ol:not(:last-child),
+.content p:not(:last-child),
+.content pre:not(:last-child),
+.content table:not(:last-child),
+.content ul:not(:last-child) {
+  margin-bottom: 0;
+}
+
+.block:not(:last-child),
+.box:not(:last-child),
+.breadcrumb:not(:last-child),
+.content:not(:last-child),
+.highlight:not(:last-child),
+.level:not(:last-child),
+.list:not(:last-child),
+.message:not(:last-child),
+.notification:not(:last-child),
+.progress:not(:last-child),
+.subtitle:not(:last-child),
+.table-container:not(:last-child),
+.table:not(:last-child),
+.tabs:not(:last-child),
+.title:not(:last-child) {
+  margin-bottom: 0.5rem;
 }
