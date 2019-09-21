@@ -51,10 +51,10 @@
                     <div class="navbar-item">
                         <div class="field has-addons">
                             <p class="control">
-                                <input type="text" class="input" placeholder="Enter search...">
+                                <input type="text" class="input" placeholder="Enter keywords...">
                             </p>
                             <p class="control">
-                                <a href="" class="button is-link">Search</a>
+                                <a href="" class="button is-link">Chercher</a>
                             </p>
                         </div>
                     </div>
@@ -666,6 +666,28 @@
         </footer>
 
     </div>
+
+    <button onclick="toTop()" id="toTop" title="Go to top"><i class="fa fa-arrow-up"></i></button>
+    <script>
+        mybutton = document.getElementById("toTop");
+
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        };
+
+        function toTop() {
+
+            (window.pageYOffset = 0) || (document.documentElement.scrollTop = 0) || (document.body.scrollTop = 0) || 0
+        };
+    </script>
 
 </body>
 
